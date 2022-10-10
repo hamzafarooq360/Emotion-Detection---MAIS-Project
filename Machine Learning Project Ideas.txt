@@ -1,0 +1,35 @@
+﻿Project Proposal
+
+
+
+
+1. Project idea: Emotion detection using Convolutional Neural Networks
+   1. Dataset
+      1. https://www.kaggle.com/datasets/ananthu017/emotion-detection-fer 
+      2. The dataset contains 35,685 examples of 48x48 pixel grey scale images of faces divided into training, validation and testing data. Images are categorised based on the emotion shown in the facial expressions (happiness, neutral, sadness, anger, surprise, disgust, fear).
+
+
+
+
+2. Machine Learning Model
+
+
+   2. What do you want to predict/estimate from this dataset? 
+      1. We want to provide images as data and have the model predict the emotion that most closely matches the image provided
+   3. Propose a machine learning model/algorithm for it, and explain your reasoning. 
+      1. We plan to use a convolutional neural network for our project because it is one of the most accurate models used for image processing. (High accuracy and high precision)
+   4. Metrics
+      1. Confusion matrix and accuracy/precision-recall/logistic loss  (classification problems).
+
+
+3. Application
+   1. Webapp
+      1. We plan to deploy it to a webapp using flask and maybe react.js for the frontend
+
+
+   2. What does the user input? How does the user provide inputs? (Is there a webcam? A way for users to submit images? text?) 
+      1. We plan to use a webcam as input and images too
+
+
+   3. What does the user receive as output, how will the output be displayed?
+      1. Output will be displayed as text with emojis corresponding to the emotion.
