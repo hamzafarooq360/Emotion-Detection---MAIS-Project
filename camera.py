@@ -27,6 +27,9 @@ class VideoCamera(object):
 
             cv2.putText(fr, pred, (x, y), font, 1, (255, 255, 0), 2)
             cv2.rectangle(fr,(x,y),(x+w,y+h),(255,0,0),2)
+            img = cv2.imread(f"static/images/emotions/{pred}.png")
+            img = cv2.resize(img, (100,100))
+            fr[100:200, :100] = cv2.addWeighted(fr[100:200, :100], 0, img, 1, 0)
 
         _, jpeg = cv2.imencode('.jpg', fr)
         return jpeg.tobytes()
