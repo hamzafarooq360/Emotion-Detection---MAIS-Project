@@ -4,7 +4,7 @@ import tensorflow as tf
 import os
 
 # used to detect faces in a picture
-facec = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+facec = cv2.CascadeClassifier('haarcascade_frontalface_alt2.xml')
 #choose font
 font = cv2.FONT_HERSHEY_SIMPLEX
 # load model
