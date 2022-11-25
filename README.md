@@ -11,9 +11,9 @@ The following dataset was used to train our model. It contains grayscale images 
 https://www.kaggle.com/datasets/ananthu017/emotion-detection-fer 
 
 # Organization
-**1. Code** Contains ipynb files for our training results
-**2. static** CSS file for landing page 
-**3. templates** HTML template for landing page
-**4. video.py** python code for the videofeed and to predict using the model.
-**5. app.py** main python script to instantiate Flask server
-**6. Pdfs and text files** Project Proposal.txt, Preliminary Results and Final Results are also included for updates on the project.
+1. Code Contains ipynb files for our training results
+2. static CSS file for landing page 
+3. templates HTML template for landing page
+4. video.py python code for the videofeed and to predict using the model.
+5. app.py main python script to instantiate Flask server
+6. Pdfs and text files Project Proposal.txt, Preliminary Results and Final Results are also included for updates on the project.
