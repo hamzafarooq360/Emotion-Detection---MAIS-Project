@@ -1,3 +1,4 @@
+![Screen Shot 2022-12-21 at 11 44 12 AM](https://user-images.githubusercontent.com/86162690/209456663-428c5614-ddb1-41eb-b220-79fcd761a388.png)
 # Emotion-Detection---MAIS-Project
 IMPORTANT
 ***Before running, add the New_Model.h5 file to the folder. The file can be found here.*** 
