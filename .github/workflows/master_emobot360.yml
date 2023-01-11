@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'Emobot360'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F7B6F8AA71E34EF6BD65DA330D0AE8FA }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D1200DBE16E04A7C9A8B4A6027E4126A }}
