@@ -109,7 +109,6 @@ terminado==0.13.3
 tinycss2==1.2.1
 torch==1.13.0
 torchvision==0.14.0
-tornado==4.5.3
 traitlets==5.5.0
 typing_extensions==4.4.0
 urllib3==1.24.3
