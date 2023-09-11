@@ -1,71 +1,90 @@
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <title>emobot</title>
 
-<head>
-  <meta charset="utf-8">
-  <title>emobot</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu"
+      rel="stylesheet"
+    />
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+    <!-- CSS Stylesheets -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="static/css/styles.css" />
 
-  <!-- CSS Stylesheets -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="static/css/styles.css">
+    <!-- Font Awesome -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
+    ></script>
 
-  <!-- Font Awesome -->
-  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <!-- Bootstrap Scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-  <!-- Bootstrap Scripts -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</head>
+  <body>
+    <section class="colored-section" id="title">
+      <div class="container-fluid">
+        <!-- Nav Bar -->
 
-<body>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="">emobot</a>
 
-  <section class="colored-section" id="title">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo02"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-    <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonials">Stories</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cta">Download</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
 
-      <!-- Nav Bar -->
+        <!-- Title -->
 
-      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="big-heading">
+              Make dull meetings fun again with emobot.
+            </h1>
 
-        <a class="navbar-brand" href="">emobot</a>
+            <!-- making dynamic websites-->
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#footer">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#testimonials">Stories</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#cta">Download</a>
-            </li>
-          </ul>
-
-        </div>
-      </nav>
-
-
-      <!-- Title -->
-
-      <div class="row">
-
-        <div class="col-lg-6">
-          <h1 class="big-heading">Make dull meetings fun again with emobot.</h1>
-
-          
-
-          <!-- making dynamic websites-->
-
-          <!-- <form action="/launch" method="GET">
+            <!-- <form action="/launch" method="GET">
 
             <div class="form-group form">
               <label for="launch"></label>
@@ -74,211 +93,195 @@
             </div>
 
           </form> -->
-
-          
-
-
-
-
-        </div>
-
-        <div class="col-lg-6">
-          <img class="title-image" src="https://i0.wp.com/living.ai/wp-content/uploads/2020/12/product2.jpg?w=2000&ssl=1" alt="emobot-logo">
-        </div>
-
-      </div>
-
-    </div>
-
-  </section>
-
-  <!-- Emotions -->
-
-  <section class="white-section" id="emotions">
-
-    <div class="container-fluid">
-
-      <h1 class="section-heading">Emotions that Our Model Can Accurately Predict.</h1>
-
-      <div class="row">
-
-        <div class="feature-box col-lg-3">
-          <div class="card">
-            <img class="card-img-top emotion-image" src="static/images/emotions/happy.png" alt="emotion emoji">
-            <div class="card-body">
-              <h4 class="card-title">Happy</h4>
-              <p class="card-text">Could be when you feel valued.</p>
-            </div>
           </div>
-        </div>
 
-        <div class="feature-box col-lg-3">
-          <div class="card">
-            <img class="card-img-top emotion-image" src="static/images/emotions/sad.png" alt="emotion emoji">
-            <div class="card-body">
-              <h4 class="card-title">Sad</h4>
-              <p class="card-text">Could be you miss the bus (again).</p>
-            </div>
+          <div class="col-lg-6">
+            <img
+              class="title-image"
+              src="https://i0.wp.com/living.ai/wp-content/uploads/2020/12/product2.jpg?w=2000&ssl=1"
+              alt="emobot-logo"
+            />
           </div>
-        </div>
-
-        <div class="feature-box col-lg-3">
-          <div class="card">
-            <img class="card-img-top emotion-image" src="static/images/emotions/angry.png" alt="emotion emoji">
-            <div class="card-body">
-              <h4 class="card-title">Angry</h4>
-              <p class="card-text">Could be when you get hungry during the meeting.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="feature-box col-lg-3">
-          <div class="card">
-            <img class="card-img-top emotion-image" src="static/images/emotions/fearful.png" alt="emotion emoji">
-            <div class="card-body">
-              <h4 class="card-title">Fearful</h4>
-              <p class="card-text">Could be when you don't know if you'll make the deadline.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="feature-box col-lg-3">
-          <div class="card">
-            <img class="card-img-top emotion-image" src="static/images/emotions/neutral.png" alt="emotion emoji">
-            <div class="card-body">
-              <h4 class="card-title">Neutral</h4>
-              <p class="card-text">Could be when you feel dead inside.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="feature-box col-lg-3">
-          <div class="card">
-            <img class="card-img-top emotion-image" src="static/images/emotions/surprised.png" alt="emotion emoji">
-            <div class="card-body">
-              <h4 class="card-title">Surprised</h4>
-              <p class="card-text">Could be when the prof says the fail rate was 0%.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="feature-box col-lg-3">
-          <div class="card">
-            <img class="card-img-top emotion-image" src="static/images/emotions/disgusted.png" alt="emotion emoji">
-            <div class="card-body">
-              <h4 class="card-title">Disgusted</h4>
-              <p class="card-text">Could be when you have to do math proofs.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="feature-box col-lg-3">
-          <div class="card">
-            <img class="card-img-top emotion-image" src="static/images/emotions/content.png" alt="emotion emoji">
-            <div class="card-body">
-              <h4 class="card-title">Content</h4>
-              <p class="card-text">Could be when you go to class just for the attendance.</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-
-
-    </div>
-
-  </section>
-  
-  <h1 class="section-heading">Try it out</h1>
-  <img id="bg" width=800px height=640px src="{{url_for('video_feed') }}">
-  
-
-  <!-- Testimonials -->
-
-  <section class="colored-section" id="testimonials">
-
-    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
-      <div class="carousel-inner">
-        <div class="carousel-item active container-fluid">
-          <h2 class="testimonial-text">I no longer have to ask students to concentrate. I call my cat whenever I see my students dozing off. hacks.</h2>
-          <img class="testimonial-image" src="static/images/farooqi.jpg" alt="farooqi-profile">
-          <em>Farooqi, Karachi</em>
-        </div>
-        <div class="carousel-item container-fluid">
-          <h2 class="testimonial-text">My boss used to always exceed meeting time, but with emobot's help, now they understand we have to go to the bathroom. hehe.</h2>
-          <img class="testimonial-image" src="static/images/junaid.jpg" alt="junaid-profile">
-          <em>Junaid, Dhaka</em>
         </div>
       </div>
-      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </a>
-      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </a>
-    </div>
+    </section>
 
-  </section>
+    <!-- Emotions -->
 
+    <section class="white-section" id="emotions">
+      <div class="container-fluid">
+        <h1 class="section-heading">
+          Emotions that Our Model Can Accurately Predict.
+        </h1>
 
-  <!-- Features -->
+        <div class="row">
+          <div class="feature-box col-lg-3">
+            <div class="card">
+              <img
+                class="card-img-top emotion-image"
+                src="static/images/emotions/happy.png"
+                alt="emotion emoji"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Happy</h4>
+              </div>
+            </div>
+          </div>
 
-  <section class="white-section" id="features">
+          <div class="feature-box col-lg-3">
+            <div class="card">
+              <img
+                class="card-img-top emotion-image"
+                src="static/images/emotions/sad.png"
+                alt="emotion emoji"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Sad</h4>
+              </div>
+            </div>
+          </div>
 
-    <div class="container-fluid">
+          <div class="feature-box col-lg-3">
+            <div class="card">
+              <img
+                class="card-img-top emotion-image"
+                src="static/images/emotions/angry.png"
+                alt="emotion emoji"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Angry</h4>
+              </div>
+            </div>
+          </div>
 
-      <div class="row">
-        <div class="feature-box col-lg-4">
-          <i class="icon fas fa-check-circle fa-4x"></i>
-          <h3 class="feature-title">Easy to use.</h3>
-          <p>So easy to use, you could do it blindfolded.</p>
-        </div>
+          <div class="feature-box col-lg-3">
+            <div class="card">
+              <img
+                class="card-img-top emotion-image"
+                src="static/images/emotions/fearful.png"
+                alt="emotion emoji"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Scared</h4>
+              </div>
+            </div>
+          </div>
 
-        <div class="feature-box col-lg-4">
-          <i class="icon fas fa-bullseye fa-4x"></i>
-          <h3 class="feature-title">Accurate predicitions.</h3>
-          <p>We output the best results in real time.</p>
-        </div>
+          <div class="feature-box col-lg-3">
+            <div class="card">
+              <img
+                class="card-img-top emotion-image"
+                src="static/images/emotions/neutral.png"
+                alt="emotion emoji"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Neutral</h4>
+              </div>
+            </div>
+          </div>
 
-        <div class="feature-box col-lg-4">
-          <i class="icon fas fa-heart fa-4x"></i>
-          <h3 class="feature-title">Guaranteed to work.</h3>
-          <p>Find out if people fall asleep during your meetings.</p>
+          <div class="feature-box col-lg-3">
+            <div class="card">
+              <img
+                class="card-img-top emotion-image"
+                src="static/images/emotions/surprised.png"
+                alt="emotion emoji"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Surprised</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="feature-box col-lg-3">
+            <div class="card">
+              <img
+                class="card-img-top emotion-image"
+                src="static/images/emotions/disgusted.png"
+                alt="emotion emoji"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Disgusted</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="feature-box col-lg-3">
+            <div class="card">
+              <img
+                class="card-img-top emotion-image"
+                src="static/images/emotions/content.png"
+                alt="emotion emoji"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Content</h4>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+    </section>
 
+    <h1 class="section-heading">Try it out</h1>
+    <img
+      id="bg"
+      width="800px"
+      height="640px"
+      src="{{url_for('video_feed') }}"
+    />
 
-    </div>
-  </section>
+    <!-- Features -->
 
+    <section class="white-section" id="features">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="feature-box col-lg-4">
+            <i class="icon fas fa-check-circle fa-4x"></i>
+            <h3 class="feature-title">Easy to use.</h3>
+            <p>So easy to use, you could do it blindfolded.</p>
+          </div>
 
-  <!-- Call to Action -->
+          <div class="feature-box col-lg-4">
+            <i class="icon fas fa-bullseye fa-4x"></i>
+            <h3 class="feature-title">Accurate predicitions.</h3>
+            <p>We output the best results in real time.</p>
+          </div>
 
-  <section class="colored-section" id="cta">
+          <div class="feature-box col-lg-4">
+            <i class="icon fas fa-heart fa-4x"></i>
+            <h3 class="feature-title">Guaranteed to work.</h3>
+            <p>Find out if people fall asleep during your meetings.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <div class="container-fluid">
+    <!-- Call to Action -->
 
-      <h3 class="big-heading">Find the Secret to Fun and Productive Meetings Today.</h3>
-      <button class="download-button btn btn-lg btn-dark" type="button"><i class="fab fa-apple"></i> Download</button>
-      <button class="download-button btn btn-lg brn-light" type="button"><i class="fab fa-google-play"></i> Download</button>
-    </div>
-  </section>
+    <section class="colored-section" id="cta">
+      <div class="container-fluid">
+        <h3 class="big-heading">
+          Find the Secret to Fun and Productive Meetings Today.
+        </h3>
+        <button class="download-button btn btn-lg btn-dark" type="button">
+          <i class="fab fa-apple"></i> Download
+        </button>
+        <button class="download-button btn btn-lg brn-light" type="button">
+          <i class="fab fa-google-play"></i> Download
+        </button>
+      </div>
+    </section>
 
+    <!-- Footer -->
 
-  <!-- Footer -->
-
-  <footer class="white-section" id="footer">
-    <div class="container-fluid">
-      <i class="social-icon fab fa-facebook-f"></i>
-      <i class="social-icon fab fa-twitter"></i>
-      <i class="social-icon fab fa-instagram"></i>
-      <i class="social-icon fas fa-envelope"></i>
-      <p>© Copyright 2022 emobot</p>
-    </div>
-  </footer>
-
-
-</body>
-
+    <footer class="white-section" id="footer">
+      <div class="container-fluid">
+        <i class="social-icon fab fa-facebook-f"></i>
+        <i class="social-icon fab fa-twitter"></i>
+        <i class="social-icon fab fa-instagram"></i>
+        <i class="social-icon fas fa-envelope"></i>
+        <p>© Copyright 2022 emobot</p>
+      </div>
+    </footer>
+  </body>
 </html>
